@@ -3,20 +3,23 @@
 The TRIPLE project, launched in October 2019 and coordinated by the French National Center for
 Scientific Research (CNRS), involved 22 partners from 15 European countries. Its primary aim was
 to develop the GoTriple discovery platform, a multilingual access point for discovering and reusing
-research artefacts in the social sciences and humanities (SSH). This thesis presented a
-comprehensive ontology designed to formalise the TRIPLE data model using semantic
+research artefacts in the social sciences and humanities (SSH). 
+
+This thesis presented a comprehensive ontology designed to formalise the TRIPLE data model using semantic
 technologies. The ontology addressed the challenge of managing heterogeneous data aggregated by
 the Core Pipeline, which integrated research artefacts from diverse external sources with varying
 structures and formats.
+
 This newly developed ontology ensured a robust semantic representation of research artefacts,
-surpassing the limitations of initial alignments with Schema.org and SIOC standards. It was aligned
+surpassing the limitations of initial alignments with [Schema.org](https://schema.org/) and SIOC standards. It was aligned
 with the main data aggregators, ensuring adherence to state-of-the-art practices in the field.
 Developed in collaboration with domain experts, the ontology was crafted to achieve several key
 objectives: formalising the data model with semantic standards, defining controlled vocabularies,
 establishing connections with external entities, ensuring resource reusability, and maintaining
 detailed documentation for transparency and extensibility.
+
 The ontology development followed a structured methodology, beginning with a preliminary
-analysis and employing the Simplified Agile Methodology for Ontology Development (SAMOD).
+analysis and employing the Simplified Agile Methodology for Ontology Development ([SAMOD](https://essepuntato.it/samod/)).
 This approach ensured a flexible, iterative development process with comprehensive testing and
 documentation, guaranteeing the ontology's accuracy and adaptability. Consequently, the ontology
 enhanced the semantic representation of research artefacts, promoted interoperability, and facilitated
@@ -30,3 +33,16 @@ This repository contains the full documentation produced during the development 
 
 * the `sparql` directory contains a set of refactored Formal Competency Questions.
 
+* the `docs` directory contains all the files related to the ontology.
+
+<img src="docs/images/documents.png" alt="documents module">
+
+_img. 1 [Document Module](https://gotriple.eu/ontology/triple/documents#)_
+
+<img src="docs/images/profiles.png" alt="documents module">
+
+_img. 2 [Profile Module](https://gotriple.eu/ontology/triple/profile)_
+
+<img src="docs/images/projects.png" alt="documents module">
+
+_img. 3 [Project Module](https://gotriple.eu/ontology/triple/project)_
