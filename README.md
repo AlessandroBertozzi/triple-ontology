@@ -1,3 +1,5 @@
+The ontology has been moved and is under active development on this repository https://github.com/atrium-research/triple-ontology.
+
 # Triple Ontology: TRIPLE
 
 The TRIPLE project, launched in October 2019 and coordinated by the French National Center for
